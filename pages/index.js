@@ -20,8 +20,8 @@ export default function Home() {
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons dark:text-fontdark'>BAP</h1>
             <ul className='flex items-center'>
-              <li><a href='https://medium.com/@bungkusprana' target="_blank" className='font-poppins m-8 dark:text-fontdark'>Medium</a></li>
-              <li><a href='#' className='font-poppins m-8 dark:text-fontdark'>Blog</a></li>
+              <li><a href='https://medium.com/@bungkusprana' target="_blank" rel='nonereferrer' className='font-poppins m-8 dark:text-fontdark'>Medium</a></li>
+              <li><a href='#' className='font-poppins m-8 dark:text-fontdark' rel='nonereferrer'>Blog</a></li>
               <li><BsFillMoonStarsFill className='cursor-pointer text-2xl ml-8  dark:text-fontdark' onClick={() => setDarkMode(!darkMode)} /></li>
               <li><a className='bg-bayu text-white px-4 py-2 rounded-md ml-8 font-poppins drop-shadow-lg dark:drop-shadow-lg' href='https://www.linkedin.com/in/bungkusprana/?originalSubdomain=id' target="_blank">Resume</a></li>
             </ul>
@@ -34,8 +34,8 @@ export default function Home() {
           </div>
 
           <div className='text-4xl flex justify-center gap-16 py-5 text-gray-600'>
-            <a href='https://medium.com/@bungkusprana' target="_blank" className='dark:text-gray-300'><FaMedium /></a>
-            <a href='https://www.linkedin.com/in/bungkusprana/?originalSubdomain=id' target="_blank" className='dark:text-gray-300'><FaLinkedin /></a>
+            <a href='https://medium.com/@bungkusprana' target="_blank" rel='nonereferrer' className='dark:text-gray-300'><FaMedium /></a>
+            <a href='https://www.linkedin.com/in/bungkusprana/?originalSubdomain=id' rel='nonereferrer' target="_blank" className='dark:text-gray-300'><FaLinkedin /></a>
             <a href='#' target="_blank" className='dark:text-gray-300'><FaPenSquare /></a>
             
           </div>
